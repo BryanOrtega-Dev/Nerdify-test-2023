@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px 50px;
+}
+
+nav img {
+    width: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 0 25px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-menu li a:hover {
+    color: orange;
+}
+
+.nav-login {
+    padding: 14px 30px;
+    background-color: rgb(255, 227, 175);
+    border-radius: 25px;
+}
+
+.nav-login a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-login a:hover {
+    color: orangered;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.main-info {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+}
+
+.main-info h1 {
+    font-size: 50px;
+    text-decoration: underline 2px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.main-info h1 span {
+    color: orange;
+    text-decoration: underline 2px;
+
+}
+
+.main-info p {
+    font-size: 18px;
+    padding-right: 90px;
+    margin-bottom: 50px;
+}
+
+.main-info-image {
+    width: 45%;
+}
+
+.main-info-image img {
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.main-info-form {
+    position: absolute;
+    z-index: -1;
+    height: 800px;
+    width: 390px;
+    rotate: 50deg;
+    top: -235px;
+    right: -60px;
+    border-radius: 250px;
+    background-color: orange;
+}
+
+.main-info-botton {
+    width: 100%;
+    display: flex;
+}
+
+.first-botton {
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    background-color: orange;
+    border-radius: 12px;
+    margin: 0px 22px 0px 0px;
+}
+
+.first-botton:hover {
+    color: black;
+}
+
+.second-botton {
+    display: flex;
+    align-items: center;
+}
+
+.second-botton a {
+    color: rgb(11, 10, 10);
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.circle {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: orange;
+}
+  
+.triangle-one {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 8px solid black;
+    top: 30%;
+    left: 35%;
+    transform: rotate(90deg);
+}
+
+.triangle-two {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 5px solid white;
+    top: 37%;
+    left: 42%;
+    transform: rotate(90deg);
+}
+
+.half-curve {
+    position: absolute;
+    width: 22px;
+    height: 13px;
+    border-top-right-radius: 50px 50px;
+    border-top-left-radius: 50px 50px;
+    border: 3px solid white;
+    border-bottom: none;
+    rotate: -90deg;
+    top: 25%;
+    left: -12%;
+}
+
+.flight-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    padding: 20px 100px;
+}
+
+.flight-container {
+    background-color: rgb(255, 241, 215);
+    border: 2px solid orange;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.flight {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    list-style: none;
+}
+
+.flight-image {
+    display: flex;
+    align-items: end;
+}
+
+.flight-image img {
+    width: 60%;
+    padding-bottom: 15px;
+}
+
+.flight-check {
+    color: rgb(162, 162, 162);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.flight-check li {
+    padding: 5px 0;
+}
+
+.flight-check li:first-child {
+    font-size: 14px;
+}
+
+.flight-check li:nth-child(2) {
+    font-size: 30px;
+    color: rgb(11, 10, 10);
+}
+
+.flight-check li:last-child {
+    color: rgb(11, 10, 10);
+    font-size: 14px;
+}
+
+.flight-botton {
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.flight-botton a {
+    text-decoration: none;
+    color: white;
+    padding: 13px 55px 13px 35px;
+    border-radius: 12px;
+    background-color: orange;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.flight-botton a:hover {
+    color: black;
+}
